@@ -15,3 +15,4 @@
       r <- rnorm(n=10000, mean=0, sd=1) 
       hist(r)
       
+<p><img src="https://github.com/jinkyukim-me/Programming_in_R/blob/master/img/1.rnorm.JPG" width="70%"></p>
