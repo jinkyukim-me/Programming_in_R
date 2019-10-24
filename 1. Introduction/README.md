@@ -1,0 +1,18 @@
+### exp()는 exp에서 지정한 숫자 만큼 e를 거듭제곱하는 함수
+
+=exp(1)  e=2.718282이니까 2.718282입니다.
+
+=exp(2) 2.718282*2.718282 = 7.389056
+
+=exp(5) 2.718282*2.718282*2.718282*2.718282*2.718282=148.4132
+
+### rnorm()
+
+정규분포를 갖는 수를 원하는 만큼 random generation 한다.
+
+10000개를 만들어 보면,
+
+      r <- rnorm(n=10000, mean=0, sd=1) 
+      hist(r)
+      
+<p><img src="https://github.com/jinkyukim-me/Programming_in_R/blob/master/img/1.rnorm.JPG" width="70%"></p>
